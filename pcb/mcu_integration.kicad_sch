@@ -2464,6 +2464,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 246.38 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6d00b9ad-b58b-4f48-8395-de9d4f9c2ead)
+    (property "Reference" "R5" (at 248.92 74.93 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2k" (at 248.92 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 244.602 76.2 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 246.38 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 37e9004f-85ae-4462-8749-f66a90c5683a))
+    (pin "1" (uuid 9e832215-074f-4c65-8c04-3438bc772d55))
+    (instances
+      (project "mcu_integration"
+        (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 19.05 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fcf8a99-005b-40eb-ba00-6f8a78ce7a02)
@@ -2733,6 +2759,32 @@
     )
   )
 
+  (symbol (lib_id "Device:LED") (at 246.38 83.82 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 92f0430c-5203-4a1b-9e74-7e85c4c72a6c)
+    (property "Reference" "D2" (at 250.19 84.1375 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "RED" (at 250.19 86.6775 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 246.38 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 246.38 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid a0eb7231-e9c2-4b50-870c-faae6265d917))
+    (pin "1" (uuid c0b59717-2b2c-444a-b3af-33aec553f046))
+    (instances
+      (project "mcu_integration"
+        (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED") (at 19.05 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 968f8967-2f33-4451-9859-e924772a2aff)
@@ -2931,6 +2983,31 @@
       (project "mcu_integration"
         (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
           (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 246.38 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c67139e0-2233-4cef-af0d-f48c065cf72b)
+    (property "Reference" "#PWR012" (at 246.38 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 246.38 67.31 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 246.38 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 246.38 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f5f07c93-3c6c-432b-866d-1412a770da0a))
+    (instances
+      (project "mcu_integration"
+        (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3161,6 +3238,31 @@
       (project "mcu_integration"
         (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
           (reference "#FLG03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 246.38 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f0dad445-1070-4e9d-b0aa-b7245757d302)
+    (property "Reference" "#PWR017" (at 246.38 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 246.38 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 246.38 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 246.38 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2c2a229a-c3d6-448c-8bc4-75b734879fec))
+    (instances
+      (project "mcu_integration"
+        (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
+          (reference "#PWR017") (unit 1)
         )
       )
     )

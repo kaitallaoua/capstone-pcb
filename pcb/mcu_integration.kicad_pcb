@@ -389,7 +389,7 @@
       (net 6 "/HSE_OSC_IN") (pinfunction "1") (pintype "passive") (tstamp 036d53af-3c63-48a4-a3ab-617592ea2678))
     (pad "2" smd rect (at 4.75 0) (size 2 5.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "/HSE_OSC_OUT") (pinfunction "2") (pintype "passive") (tstamp edf9551a-8c10-45d0-b5eb-da468923dac0))
-    (model "/home/karim/my_code/capstone-pcb/footprint_3d/ECS-80-18-5PX-GM-TR.stp"
+    (model "${KI_PROJ_DIR}/footprint_3d/ECS-80-18-5PX-GM-TR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

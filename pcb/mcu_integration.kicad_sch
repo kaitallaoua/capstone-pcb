@@ -3278,6 +3278,23 @@
     )
   )
 
+  (sheet (at 698.5 0) (size 330.2 207.01) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f1afd235-040c-4b54-9b6d-8df613af2103)
+    (property "Sheetname" "Matt IC Tests" (at 698.5 -0.7116 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 698.5 207.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mcu_integration"
+        (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2" (page "3"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

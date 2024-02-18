@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tags "C0805C104K5RAC7210 ")
   (attr smd)
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ce6546c4-1457-483d-b40b-769786adcb1a)
   )

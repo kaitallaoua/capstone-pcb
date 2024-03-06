@@ -2302,7 +2302,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 167.64 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d4efef1-9c28-4148-a846-b2bf77a9d813)
-    (property "Reference" "J3" (at 170.18 72.39 0)
+    (property "Reference" "J_SWD+UART1" (at 170.18 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 170.18 74.93 0)
@@ -2323,7 +2323,7 @@
     (instances
       (project "mcu_integration"
         (path "/c0210bc3-f67f-47d8-a34e-f002a728adb2"
-          (reference "J3") (unit 1)
+          (reference "J_SWD+UART1") (unit 1)
         )
       )
     )

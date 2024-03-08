@@ -3043,7 +3043,7 @@
     (property "Reference" "C16" (at 161.29 41.91 90)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "0.1u" (at 161.29 44.45 90)
+    (property "Value" "0.01u" (at 161.29 44.45 90)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "capstone:CAPC220145_88N_KEM-0.1u" (at 157.48 39.37 0)

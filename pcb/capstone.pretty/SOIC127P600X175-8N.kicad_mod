@@ -3,7 +3,7 @@
   (descr "SO_8_2022_1-1")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference "IC**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "IC**" (at 0.2 -3.6) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp c693a95b-5e0d-44da-b636-54c34a11b9a7)
   )

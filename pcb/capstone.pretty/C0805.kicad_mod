@@ -3,7 +3,7 @@
   (descr "C0805")
   (tags "Capacitor")
   (attr smd)
-  (fp_text reference "C**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "C**" (at 0 1.8) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp ce147689-9deb-49d2-9b7e-77a2dab50ff4)
   )

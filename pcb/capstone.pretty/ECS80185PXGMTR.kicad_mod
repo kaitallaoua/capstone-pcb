@@ -3,7 +3,7 @@
   (descr "ECS-80-18-5PX-GM-TR-1")
   (tags "Crystal or Oscillator")
   (attr smd)
-  (fp_text reference "Y**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "Y**" (at 0 -3.8) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp cd92339a-61a2-451a-8806-e563e4342035)
   )

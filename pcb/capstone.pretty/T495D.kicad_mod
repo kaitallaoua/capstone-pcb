@@ -3,7 +3,7 @@
   (descr "T495D-1")
   (tags "Capacitor Polarised")
   (attr smd)
-  (fp_text reference "C**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "C**" (at 7.4 0 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp cdd38519-3396-4861-a671-86877efde425)
   )

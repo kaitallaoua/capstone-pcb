@@ -50,6 +50,12 @@ Order from JLC (1 week delivery), Order from Mouser/Digikey (2-4 day delivery) -
 
 I recommend to use the parts list available from JLCPCB or PCBWay to assemble as much of the board for you as possible, it saves alot of time but honestly building it by hand it also not that bad. Either is fine.
 
+## Resources
+
+[KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://www.youtube.com/watch?v=aVUqaB0IMh4)
+
+[PCB Design Final Touches (Tips & Checklist) - Phil's Lab #131](https://www.youtube.com/watch?v=g4m91gv-4oQ)
+
 ## Front PCB
 
 ![front_pcb](docs/img/front_pcb.png)
